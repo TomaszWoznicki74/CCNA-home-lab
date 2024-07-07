@@ -24,7 +24,7 @@ To laboratorium ma na celu nauczenie podstawowych konfiguracji sieciowych na prz
 3. Podążaj za krokami opisanymi w `documentation/lab_instructions.md`.
 
 ## Diagram sieci
-![Network Diagram]
+![Network Diagram](documentation/network_diagram.png)
 
 ## Kontakt
 Jeśli masz pytania lub sugestie, możesz skontaktować się ze mną przez email: tomaszwoznicki74@gmail.com
