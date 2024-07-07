@@ -63,7 +63,7 @@
     Switch(config-if)# exit
     ```
 
-## Krok 4: Konfiguracja interfejsów VLAN
+## Krok 4: Konfiguracja serwera DHCP na przełączniku
 1. DHCP dla VLAN 10:
     ```plaintext
     Switch(config)# ip dhcp pool VLAN10
