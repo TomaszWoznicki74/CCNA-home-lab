@@ -28,7 +28,7 @@ This lab aims to verify remote connection to the switch using the SSH protocol i
 3. Follow the steps described in `documentation/lab_instructions.md`.
 
 ## Network Diagram
-![Network Diagram]
+![Network Diagram](documentation/network_diagram.png)
 
 ## Contact
 If you have any questions or suggestions, you can contact me via email: tomaszwoznicki74@gmail.com.
