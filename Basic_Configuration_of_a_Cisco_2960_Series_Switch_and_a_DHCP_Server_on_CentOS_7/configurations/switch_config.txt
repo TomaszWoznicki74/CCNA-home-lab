@@ -28,7 +28,7 @@ Step 3: Create VLAN 10 and VLAN 20
 Step 4: Assign IP Address to VLAN 10 Interface
  
      Switch(config)#interface vlan 10
-     Switch(config-if)#ip address 10.10.100.5 255.255.255.0
+     Switch(config-if)#ip address 10.10.100.2 255.255.255.0
      Switch(config-if)#no shutdown
      Switch(config-if)#exit
 
