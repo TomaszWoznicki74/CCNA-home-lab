@@ -47,3 +47,24 @@
      Switch(config-if)#no shutdown
      Switch(config-if)#exit 
     ```
+
+
+# Validation for Lab 3
+
+## Step 1: Verify APIPA on Windows Machines Before Starting the DHCP Server
+
+    1. Ensure that the Windows hosts are connected to the network.
+
+    2. Check if the Windows machines receive IP addresses in the range of 169.254.x.x (APIPA range).
+
+## Step 2: Enable the DHCP Server and Verify Dynamic IP Assignment
+
+    1. Start the DHCP server
+    ```plaintext
+    sudo systemctl start dhcpd
+    ```
+
+    2. Check if the Windows hosts receive IP addresses in the range specified in the DHCP configuration (10.10.100.10 to 10.10.100.254).
+
+
+This documentation provides detailed steps for configuring a Cisco 2960 series switch and setting up a DHCP server on a CentOS 7 machine, as well as validating the functionality of APIPA and DHCP-based IP address assignment for Windows hosts in a LAN environment.
