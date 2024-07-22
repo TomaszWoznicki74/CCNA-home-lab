@@ -1,0 +1,38 @@
+Step 1: Configure a Static IP Address for the DHCP Server in the LAN
+    
+    1. sudo nmcli con add con-name "static" ifname enp2s0 autoconnect no type ethernet ip4 10.10.100.5/24 gw4 10.10.100.1
+    
+    2. sudo nmcli con up "static"
+
+Step 2: Install and Configure the DHCP Server
+
+    1. Install the DHCP Package Using YUM
+
+        1. sudo yum install dhcp -y
+    
+    2. Edit the Configuration File
+
+        1. sudo vim /etc/dhcp/dhcpd.conf
+
+        2. Add the Following Configuration:
+
+            authoritative;
+            subnet 10.10.100.0 netmask 255.255.255.0 {
+                range 10.10.100.10 10.10.100.254;
+                option routers 10.10.100.1;
+                option broadcast-address 10.10.100.255;
+                default-lease-time 600;
+                max-lease-time 7200;
+            }
+    
+    3. Save the File and Start the DHCP Server
+
+        1. sudo systemctl start dhcpd
+
+    4. Check the Status of the DHCP Server
+
+        1. sudo systemctl status dhcpd
+
+    5. Stop the DHCP Server if Needed
+
+        1. sudo systemctl stop dhcpd
