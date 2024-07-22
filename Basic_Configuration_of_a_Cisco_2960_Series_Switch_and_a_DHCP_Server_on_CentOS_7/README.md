@@ -26,7 +26,7 @@ This lab focuses on the basic configuration of a Cisco 2960 series switch and se
 3. Follow the steps described in `documentation/lab_instructions.md`.
 
 ## Network Diagram
-![Network Diagram](documentation/network_diagram.png)
+![Network Diagram](documentation/networkDiagram.png)
 
 ## Contact
 If you have any questions or suggestions, you can contact me via email: tomaszwoznicki74@gmail.com.
