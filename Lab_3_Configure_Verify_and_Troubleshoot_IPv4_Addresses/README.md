@@ -10,6 +10,14 @@ Configuring IPv4 addressing is one of your most fundamental tasks as a Cisco eng
 - Cisco Packet Tracer or another network sumulation tool.
 - 2 routers with HWIC-2T card, providing 2 serial ports.
 
+## Lab Tasks 
+1. Configure the hostnames on routers R1 and R2 as illustraded in the Network Diagram.
+2. Configure R1 S0/0/0, which is a DCE, to provide a clock rate of 768 Kbps to R2 (uless you are using GNS3). Configure the IP addresses on the Serial interfaces of R1 and R2 as illustrated in the Network Diagram. Configure the Loopback interfaces specified in the diagram on R1 and R2.
+3. Use the correct show commands to check:
+- The summary of all configured IP addresses.
+- The status of the interface(up/down or administratively down).
+- The subnet mask applied to the intreface.
+
 ## Files
 - **configurations/**: Contains the configuration file for the device
 - **documentation/**: Contains the network diagram and detailed instructions.
