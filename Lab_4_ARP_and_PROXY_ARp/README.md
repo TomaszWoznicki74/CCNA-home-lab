@@ -28,7 +28,7 @@ You must understand how ARP works in order to pass the CCNA exam. You could well
 3. Follow the steps described in `documetation/lab_instructions.md`.
 
 ## Network Diagram
-![Network Diagram](documentation/network_diagram.png)
+![Network Diagram](Documentation/network_diagram.png)
 
 ## Contact 
 If you have any questions or suggestions, you can contact me via email: tomaszwoznicki74@gmail.com
